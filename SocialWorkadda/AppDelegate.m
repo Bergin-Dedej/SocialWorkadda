@@ -16,9 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Merge test
     // Override point for customization after application launch.
-    // some shit to push
     return YES;
 }
 
