@@ -17,11 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    // test
-    // Test2
-    // Test 3 added remote repository
-    // Test 4 then soon Stepan WIll add code
-    // Test 5 Stepan is in
     return YES;
 }
 
