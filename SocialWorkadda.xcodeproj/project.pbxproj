@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5047C1EF1D8AC94F00D88133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047C1EE1D8AC94F00D88133 /* main.m */; };
+		5047C1F21D8AC94F00D88133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047C1F11D8AC94F00D88133 /* AppDelegate.m */; };
+		5047C1F51D8AC94F00D88133 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047C1F41D8AC94F00D88133 /* ViewController.m */; };
+		5047C1F81D8AC94F00D88133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5047C1F61D8AC94F00D88133 /* Main.storyboard */; };
+		5047C1FA1D8AC94F00D88133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5047C1F91D8AC94F00D88133 /* Assets.xcassets */; };
+		5047C1FD1D8AC94F00D88133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5047C1FB1D8AC94F00D88133 /* LaunchScreen.storyboard */; };
+		5047C2081D8AC94F00D88133 /* SocialWorkaddaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047C2071D8AC94F00D88133 /* SocialWorkaddaTests.m */; };
+		5047C2131D8AC94F00D88133 /* SocialWorkaddaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5047C2121D8AC94F00D88133 /* SocialWorkaddaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5047C2041D8AC94F00D88133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5047C1E21D8AC94F00D88133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5047C1E91D8AC94F00D88133;
+			remoteInfo = SocialWorkadda;
+		};
+		5047C20F1D8AC94F00D88133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5047C1E21D8AC94F00D88133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5047C1E91D8AC94F00D88133;
+			remoteInfo = SocialWorkadda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5047C1EA1D8AC94F00D88133 /* SocialWorkadda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialWorkadda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5047C1EE1D8AC94F00D88133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5047C1F01D8AC94F00D88133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5047C1F11D8AC94F00D88133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5047C1F31D8AC94F00D88133 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5047C1F41D8AC94F00D88133 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5047C1F71D8AC94F00D88133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5047C1F91D8AC94F00D88133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5047C1FC1D8AC94F00D88133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5047C1FE1D8AC94F00D88133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5047C2031D8AC94F00D88133 /* SocialWorkaddaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialWorkaddaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5047C2071D8AC94F00D88133 /* SocialWorkaddaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialWorkaddaTests.m; sourceTree = "<group>"; };
+		5047C2091D8AC94F00D88133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5047C20E1D8AC94F00D88133 /* SocialWorkaddaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialWorkaddaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5047C2121D8AC94F00D88133 /* SocialWorkaddaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialWorkaddaUITests.m; sourceTree = "<group>"; };
+		5047C2141D8AC94F00D88133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5047C1E71D8AC94F00D88133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5047C2001D8AC94F00D88133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5047C20B1D8AC94F00D88133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5047C1E11D8AC94F00D88133 = {
+			isa = PBXGroup;
+			children = (
+				5047C1EC1D8AC94F00D88133 /* SocialWorkadda */,
+				5047C2061D8AC94F00D88133 /* SocialWorkaddaTests */,
+				5047C2111D8AC94F00D88133 /* SocialWorkaddaUITests */,
+				5047C1EB1D8AC94F00D88133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5047C1EB1D8AC94F00D88133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5047C1EA1D8AC94F00D88133 /* SocialWorkadda.app */,
+				5047C2031D8AC94F00D88133 /* SocialWorkaddaTests.xctest */,
+				5047C20E1D8AC94F00D88133 /* SocialWorkaddaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5047C1EC1D8AC94F00D88133 /* SocialWorkadda */ = {
+			isa = PBXGroup;
+			children = (
+				5047C1F01D8AC94F00D88133 /* AppDelegate.h */,
+				5047C1F11D8AC94F00D88133 /* AppDelegate.m */,
+				5047C1F31D8AC94F00D88133 /* ViewController.h */,
+				5047C1F41D8AC94F00D88133 /* ViewController.m */,
+				5047C1F61D8AC94F00D88133 /* Main.storyboard */,
+				5047C1F91D8AC94F00D88133 /* Assets.xcassets */,
+				5047C1FB1D8AC94F00D88133 /* LaunchScreen.storyboard */,
+				5047C1FE1D8AC94F00D88133 /* Info.plist */,
+				5047C1ED1D8AC94F00D88133 /* Supporting Files */,
+			);
+			path = SocialWorkadda;
+			sourceTree = "<group>";
+		};
+		5047C1ED1D8AC94F00D88133 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5047C1EE1D8AC94F00D88133 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5047C2061D8AC94F00D88133 /* SocialWorkaddaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5047C2071D8AC94F00D88133 /* SocialWorkaddaTests.m */,
+				5047C2091D8AC94F00D88133 /* Info.plist */,
+			);
+			path = SocialWorkaddaTests;
+			sourceTree = "<group>";
+		};
+		5047C2111D8AC94F00D88133 /* SocialWorkaddaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5047C2121D8AC94F00D88133 /* SocialWorkaddaUITests.m */,
+				5047C2141D8AC94F00D88133 /* Info.plist */,
+			);
+			path = SocialWorkaddaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5047C1E91D8AC94F00D88133 /* SocialWorkadda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5047C2171D8AC94F00D88133 /* Build configuration list for PBXNativeTarget "SocialWorkadda" */;
+			buildPhases = (
+				5047C1E61D8AC94F00D88133 /* Sources */,
+				5047C1E71D8AC94F00D88133 /* Frameworks */,
+				5047C1E81D8AC94F00D88133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialWorkadda;
+			productName = SocialWorkadda;
+			productReference = 5047C1EA1D8AC94F00D88133 /* SocialWorkadda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5047C2021D8AC94F00D88133 /* SocialWorkaddaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5047C21A1D8AC94F00D88133 /* Build configuration list for PBXNativeTarget "SocialWorkaddaTests" */;
+			buildPhases = (
+				5047C1FF1D8AC94F00D88133 /* Sources */,
+				5047C2001D8AC94F00D88133 /* Frameworks */,
+				5047C2011D8AC94F00D88133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5047C2051D8AC94F00D88133 /* PBXTargetDependency */,
+			);
+			name = SocialWorkaddaTests;
+			productName = SocialWorkaddaTests;
+			productReference = 5047C2031D8AC94F00D88133 /* SocialWorkaddaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5047C20D1D8AC94F00D88133 /* SocialWorkaddaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5047C21D1D8AC94F00D88133 /* Build configuration list for PBXNativeTarget "SocialWorkaddaUITests" */;
+			buildPhases = (
+				5047C20A1D8AC94F00D88133 /* Sources */,
+				5047C20B1D8AC94F00D88133 /* Frameworks */,
+				5047C20C1D8AC94F00D88133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5047C2101D8AC94F00D88133 /* PBXTargetDependency */,
+			);
+			name = SocialWorkaddaUITests;
+			productName = SocialWorkaddaUITests;
+			productReference = 5047C20E1D8AC94F00D88133 /* SocialWorkaddaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5047C1E21D8AC94F00D88133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ber Jr";
+				TargetAttributes = {
+					5047C1E91D8AC94F00D88133 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5047C2021D8AC94F00D88133 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5047C1E91D8AC94F00D88133;
+					};
+					5047C20D1D8AC94F00D88133 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5047C1E91D8AC94F00D88133;
+					};
+				};
+			};
+			buildConfigurationList = 5047C1E51D8AC94F00D88133 /* Build configuration list for PBXProject "SocialWorkadda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5047C1E11D8AC94F00D88133;
+			productRefGroup = 5047C1EB1D8AC94F00D88133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5047C1E91D8AC94F00D88133 /* SocialWorkadda */,
+				5047C2021D8AC94F00D88133 /* SocialWorkaddaTests */,
+				5047C20D1D8AC94F00D88133 /* SocialWorkaddaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5047C1E81D8AC94F00D88133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5047C1FD1D8AC94F00D88133 /* LaunchScreen.storyboard in Resources */,
+				5047C1FA1D8AC94F00D88133 /* Assets.xcassets in Resources */,
+				5047C1F81D8AC94F00D88133 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5047C2011D8AC94F00D88133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5047C20C1D8AC94F00D88133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5047C1E61D8AC94F00D88133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5047C1F51D8AC94F00D88133 /* ViewController.m in Sources */,
+				5047C1F21D8AC94F00D88133 /* AppDelegate.m in Sources */,
+				5047C1EF1D8AC94F00D88133 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5047C1FF1D8AC94F00D88133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5047C2081D8AC94F00D88133 /* SocialWorkaddaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5047C20A1D8AC94F00D88133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5047C2131D8AC94F00D88133 /* SocialWorkaddaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5047C2051D8AC94F00D88133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5047C1E91D8AC94F00D88133 /* SocialWorkadda */;
+			targetProxy = 5047C2041D8AC94F00D88133 /* PBXContainerItemProxy */;
+		};
+		5047C2101D8AC94F00D88133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5047C1E91D8AC94F00D88133 /* SocialWorkadda */;
+			targetProxy = 5047C20F1D8AC94F00D88133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5047C1F61D8AC94F00D88133 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5047C1F71D8AC94F00D88133 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5047C1FB1D8AC94F00D88133 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5047C1FC1D8AC94F00D88133 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5047C2151D8AC94F00D88133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5047C2161D8AC94F00D88133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5047C2181D8AC94F00D88133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialWorkadda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roma.SocialWorkadda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5047C2191D8AC94F00D88133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialWorkadda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roma.SocialWorkadda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5047C21B1D8AC94F00D88133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialWorkaddaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roma.SocialWorkaddaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialWorkadda.app/SocialWorkadda";
+			};
+			name = Debug;
+		};
+		5047C21C1D8AC94F00D88133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialWorkaddaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roma.SocialWorkaddaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialWorkadda.app/SocialWorkadda";
+			};
+			name = Release;
+		};
+		5047C21E1D8AC94F00D88133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SocialWorkaddaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roma.SocialWorkaddaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocialWorkadda;
+			};
+			name = Debug;
+		};
+		5047C21F1D8AC94F00D88133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SocialWorkaddaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roma.SocialWorkaddaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocialWorkadda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5047C1E51D8AC94F00D88133 /* Build configuration list for PBXProject "SocialWorkadda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5047C2151D8AC94F00D88133 /* Debug */,
+				5047C2161D8AC94F00D88133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5047C2171D8AC94F00D88133 /* Build configuration list for PBXNativeTarget "SocialWorkadda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5047C2181D8AC94F00D88133 /* Debug */,
+				5047C2191D8AC94F00D88133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5047C21A1D8AC94F00D88133 /* Build configuration list for PBXNativeTarget "SocialWorkaddaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5047C21B1D8AC94F00D88133 /* Debug */,
+				5047C21C1D8AC94F00D88133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5047C21D1D8AC94F00D88133 /* Build configuration list for PBXNativeTarget "SocialWorkaddaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5047C21E1D8AC94F00D88133 /* Debug */,
+				5047C21F1D8AC94F00D88133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5047C1E21D8AC94F00D88133 /* Project object */;
+}
