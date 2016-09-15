@@ -19,6 +19,7 @@
     // Override point for customization after application launch.
     // test
     // Test2
+    // Test 3 added remote repository
     return YES;
 }
 
